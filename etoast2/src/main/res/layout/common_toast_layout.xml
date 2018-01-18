@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_normal"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="6dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="6dp" >
+
+    <TextView
+        android:enabled="false"
+        android:id="@+id/tv_toast"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:gravity="center"
+        android:text="正在加载…"
+        android:textColor="#ffffffff"
+        android:textSize="16dp" />
+
+</LinearLayout>

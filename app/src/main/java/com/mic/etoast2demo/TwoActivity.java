@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.mic.etoast2.EToast2;
-import com.mic.etoast2.Toast;
+import com.mic.etoast2.ToastCompat;
 
 import java.util.Date;
 
@@ -23,7 +23,7 @@ public class TwoActivity extends Activity {
         findViewById(R.id.textView).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(TwoActivity.this,"这是一个不管怎么样都能显示的Toast TwoActivity"+new Date().getTime(), EToast2.LENGTH_SHORT).show();
+                ToastCompat.makeText(TwoActivity.this,"这是一个不管怎么样都能显示的Toast TwoActivity"+new Date().getTime(), EToast2.LENGTH_SHORT).show();
             }
         });
     }

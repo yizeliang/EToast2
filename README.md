@@ -1,3 +1,25 @@
+
+# 我的修改
+
+
+
+基于 2.1.0 版本修改
+
+修改后版本号
+3.0.0开始
+
+
+### 3.0.0
+
+[效果图](http://t1.aixinxi.net/o_1c43ib9711593as31d6fgibnp3a.png)
+
+
+- 修改Toast为ToastCompat
+- 修改判断是否开启通知权方法为`NotificationManagerCompat.from(context).areNotificationsEnabled()`
+- 需要加入`compile "com.android.support:appcompat-v7:26.+"` 版本为26以上
+
+
+# 原仓库README
 [![](https://jitpack.io/v/Blincheng/EToast2.svg)](https://jitpack.io/#Blincheng/EToast2)
 
 V2.1.0 正式上线~（2017年7月31日）
@@ -62,7 +84,7 @@ Step 2. Add the dependency
 	}
   
 
-  最后需要注意的是，此Toast非彼Toast，应该使用“import com.mic.etoast2.Toast”，建议在BaseActivity中如下使用：
+  最后需要注意的是，此Toast非彼Toast，应该使用“import com.mic.etoast2.ToastCompat”，建议在BaseActivity中如下使用：
   
   
 	public void showShortText(String text) {
