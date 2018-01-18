@@ -4,14 +4,17 @@
 
 
 基于 2.1.0 版本修改
-
+[![](https://jitpack.io/v/yizeliang/EToast2.svg)](https://jitpack.io/#yizeliang/EToast2)
 修改后版本号
 3.0.0开始
 
+### 3.0.1
+
+修复编译失败
 
 ### 3.0.0
 
-[效果图](http://t1.aixinxi.net/o_1c43ib9711593as31d6fgibnp3a.png)
+![效果图](http://t1.aixinxi.net/o_1c43ib9711593as31d6fgibnp3a.png)
 
 
 - 修改Toast为ToastCompat
