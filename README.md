@@ -2,13 +2,14 @@
 # 我的修改
 
 
-
 基于 2.1.0 版本修改
-[![](https://jitpack.io/v/yizeliang/EToast2.svg)](https://jitpack.io/#yizeliang/EToast2)
-修改后版本号
-3.0.0开始
 
-### 3.0.1
+修改后版本号3.0.0开始
+
+[![](https://jitpack.io/v/yizeliang/EToast2.svg)](https://jitpack.io/#yizeliang/EToast2)
+
+
+### 3.0.2
 
 修复编译失败
 
